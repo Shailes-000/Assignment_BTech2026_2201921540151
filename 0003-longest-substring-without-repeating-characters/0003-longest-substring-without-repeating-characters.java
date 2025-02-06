@@ -9,7 +9,7 @@ class Solution {
             --cnt[s.charAt(l++)];
 
         }
-        ans = Math.max(ans,r-1+1);
+        ans = Math.max(ans,r-l+1);
 
        }
        return ans;
